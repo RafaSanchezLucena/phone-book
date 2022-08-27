@@ -10,10 +10,6 @@ document.querySelector("#app").innerHTML = /*html*/ `<div>
   </div>
 `;
 
-document.querySelector(
-  ".lista"
-).innerHTML = /*html*/ `<h5>Sin resultados...</h5>`;
-
 // Función encargada de buscar coincidencias según el valor introducido en el input.
 window.searchNumber = (value) => {
   if (value != "") {
